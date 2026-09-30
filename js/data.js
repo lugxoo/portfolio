@@ -14,7 +14,7 @@ const portfolio = {
   },
 
   social: [
-    { label: "GitHub",   url: "https://github.com/lugxo", icon: "github" },
+    { label: "GitHub",   url: "https://github.com/lugxoo", icon: "github" },
     { label: "LinkedIn", url: "", icon: "linkedin" },
     { label: "E-mail",   url: "mailto:seuemail@exemplo.com", icon: "mail" },
   ],
