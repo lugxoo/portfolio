@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio pessoal" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-logo" href="#top">
+      <span class="logo-mark" id="logoMark">SN</span>
+      <span class="logo-text" id="logoText">Seu Nome</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#skills">Skills</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="hero-eyebrow"><span class="dot"></span> disponivel para novos projetos</p>
+      <h1 class="hero-title">
+        Oi, eu sou <span class="gradient" id="heroName">Seu Nome</span>
+      </h1>
+      <p class="hero-role" id="heroRole">Desenvolvedor Full Stack</p>
+      <p class="hero-bio" id="heroBio"></p>
+
+      <div class="hero-actions">
+        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+        <a href="#contato" class="btn btn-ghost">Fale comigo</a>
+      </div>
+
+      <div class="hero-social" id="heroSocial"></div>
+    </section>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="section" id="sobre">
+      <span class="section-tag">01</span>
+      <h2 class="section-title">Sobre mim</h2>
+      <div class="about">
+        <div class="about-card"></div>
+        <ul class="about-facts" id="aboutFacts"></ul>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <span class="section-tag">02</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <section class="section" id="projetos">
+      <span class="section-tag">03</span>
+      <h2 class="section-title">Projetos</h2>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <span class="section-tag">04</span>
+      <h2 class="section-title">Contato</h2>
+      <p class="contact-text">Tem um projeto em mente? Me conta.</p>
+      <div class="contact-links" id="contactLinks"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Feito com <span class="heart">&#9829;</span> por <span id="footerName">Seu Nome</span></p>
+    <a href="#top" class="to-top" aria-label="Voltar ao topo">&#8593;</a>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
